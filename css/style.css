@@ -1,0 +1,87 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: right;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #CE6D39;
+}
+
+#left{
+    float: left;
+}
+
+
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url('http://modengroups.com/wp-content/uploads/2013/09/Wooden-Furniture.jpg');
+   background-repeat: no-repeat;
+   background-size: 1300px 620px;
+   opacity: 0.4;
+   filter:alpha(opacity=40);
+}
+
+#title{
+    margin: 100px;
+    width: 40%;
+}
+
+#title span{
+    color:#CE6D39
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #CE6D39;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #CE6D39;
+}
+
+p{
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+    color: black;
+}
+
+.paragraph{
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+.floatingLeft{
+    width: 500px;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 100px;
+    background-color: #CE6D39;
+}
