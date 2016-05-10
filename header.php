@@ -15,8 +15,8 @@
     <div class="fixedNav">
     <ul>
         <li id="left"><a>GMAR<i class="fa fa-home" aria-hidden="true"></i></a></li>
-        <li><a href="http://localhost/testsite/secondhand-store/contact.php">Contact</a></li>    
-        <li><a href="http://localhost/testsite/secondhand-store/products.php">Products</a></li>
-        <li><a href="http://localhost/testsite/secondhand-store/index.php">Home</a></li>
+        <li><a href="contact.php">Contact</a></li>    
+        <li><a href="products.php">Products</a></li>
+        <li><a href="index.php">Home</a></li>
 </ul>
 </div>
