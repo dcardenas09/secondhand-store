@@ -9,6 +9,7 @@ ul {
 li {
     float: right;
     font-family: 'Fjalla One', sans-serif;
+    padding-right: 30px;
 }
 
 li a {
@@ -17,6 +18,11 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 
 li a:hover{
@@ -27,12 +33,13 @@ li a:hover{
     float: left;
 }
 
-
-#backgroundImage{z-index: 1;}
+#backgroundImage{
+    z-index: 1;
+}
 
 #backgroundImage:before {
    content: "";
-   position: absolute;
+   position: fixed;
    z-index: -1;
    top: 0;
    bottom: 0;
@@ -69,7 +76,7 @@ h2{
 p{
     font-size: 35px;
     font-family: 'Great Vibes', cursive;
-    color: black;
+    color: white;
 }
 
 .paragraph{
@@ -84,4 +91,149 @@ p{
     border: 10px solid black;
     margin: 100px;
     background-color: #CE6D39;
+}
+
+
+body {
+    background:#161712;
+}
+
+form,input,select,textarea{
+    margin:0; 
+    padding:0; 
+    color:#fff;
+}
+	
+	div.box{
+	margin:0 auto;
+	width:500px;
+	background:#222;
+	position:relative;
+	top:50px;
+	border:1px solid #262626;
+	}
+	
+	div.box h1{ 
+	color: white;
+	font-size:18px;
+	text-transform:uppercase;
+	padding:5px 0 5px 5px;
+	border-bottom:1px solid #CE6D39;
+	border-top:1px solid #CE6D39;
+	}
+	
+	div.box label{
+	width:100%;
+	display: block;
+	background:#1C1C1C;
+	border-top:1px solid #262626;
+	border-bottom:1px solid #161712;
+	padding:10px 0 10px 0;
+	}
+
+	div.box label span{
+	display: block;
+	color: white;
+	font-size:18px;
+	float:left;
+	width:100px;
+	text-align:right;
+	padding:5px 20px 0 0;
+    font-family: 'Fjalla One', sans-serif;
+	}
+	
+	div.box .input_text{
+	padding:10px 10px;
+	width:200px;
+	background:#CE6D39;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333;
+	border-right:1px double #333;
+	}
+	
+	div.box .message{
+	padding:7px 7px;
+	width:350px;
+	background:#CE6D39;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333;
+	border-right:1px double #333;
+	overflow:hidden;
+	height:150px;
+	}
+	
+	div.box .button{
+	margin:0 0 10px 0;
+	padding:4px 7px;
+	background:#333;
+	border:0px;
+	position: relative;
+	top:10px;
+	left:382px;
+	width:100px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    font-family: 'Fjalla One', sans-serif;
+	}
+
+div.box .button:hover{
+    background-color: #CE6D39;
+    color: white;
+}
+
+#contactInfo{
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+.fa-phone-square{
+    margin-right: 10px;
+    color: #CE6D39;
+}
+
+.fixedNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1285px;
+}
+
+#broughtDown{
+    padding-top: 25px;
+    font-size: 75px;
+}
+
+.fa-home{
+    margin-left: 5px;
+}
+
+#address{
+    font-size: 25px;
+}
+
+img{
+    border: 3px solid #CE6D39;
+}
+
+h4{
+    font-size: 25px;
+    padding-top: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #CE6D39;
+}
+
+.fa-facebook-square{
+    color: royalblue;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+    font-family: 'PT Mono', ;
 }

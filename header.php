@@ -5,23 +5,18 @@
         <link rel="stylesheet" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         
     </head>
-    <body style="overflow:hidden;">
+    <body>
 <div id="backgroundImage">
-
-    </div>
-
 </div>
-<ul>
-  <li id="left"><a>GMAR</a></li>
-  <li><a href="contact.html">Contact</a></li>    
-  <li><a href="products.html">Products</a></li>
-  <li><a href="index.html">Home</a></li>
+    <div class="fixedNav">
+    <ul>
+        <li id="left"><a>GMAR<i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a href="http://localhost/testsite/secondhand-store/contact.php">Contact</a></li>    
+        <li><a href="http://localhost/testsite/secondhand-store/products.php">Products</a></li>
+        <li><a href="http://localhost/testsite/secondhand-store/index.php">Home</a></li>
 </ul>
-
-
-
-    </body>
-</html>
+</div>
